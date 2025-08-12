@@ -1,5 +1,6 @@
 const { log } = require("console");
-var fs = require("fs");
+// var fs = require("fs");
+var fs = require('fs')
 
 fs.writeFileSync("sagar.txt","My Name is Sagar")
 // fs.writeFileSync("math.js",'');
@@ -39,6 +40,44 @@ fs.writeFileSync("sagar.txt","My Name is Sagar")
 // console.log(minVal); // 4
 
 
-const math = require('../Node-2025/math')
-console.log("Addition:", math.add(5, 3));       // Expected: 8
-console.log("Multiplication:", math.multiply(4, 2)); // Expected: 8
+// const math = require('./math')
+// console.log("Addition:", math.add(5, 3));       // Expected: 8
+// console.log("Multiplication:", math.multiply(4, 2)); // Expected: 8
+
+
+// var a= 300;
+// let b = 200;
+// let c = 50
+
+// console.log(a+b+c)
+
+// if(a==300){
+//     // debugger
+//     console.log('this is if codnition');
+    
+// }else{
+    
+//     console.log("this is else condition")
+// }
+
+// for(let i=1; i<=10; i++){
+//     console.log(i)
+// }
+
+
+var users = ["Anil","Sam", "Pratik","Joel"];
+
+for(var a=0;a< users.length ; a++){
+    console.log(users[a])
+} 
+
+
+var user = {
+    name:"Rajesh",
+    age:25,
+    city:"Pune"
+}
+
+console.log(user);
+console.log(user.name);
+console.log(user.city)
